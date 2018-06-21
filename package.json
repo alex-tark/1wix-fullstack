@@ -1,0 +1,63 @@
+{
+  "name": "1wix-fullstack",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Тестовое задание на позицию Senior JS(fullstack) компании 1wix",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "PORT=3030 HOST=localhost vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node -r dotenv/config -r esm ./server",
+    "dev": "nodemon -r dotenv/config -r esm ./server",
+    "knex": "./node_modules/.bin/knex",
+    "db:create": "echo 'CREATE DATABASE `koa` CHARACTER SET `utf8` COLLATE `utf8_general_ci`' | mysql -u root -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-tark/1wix-fullstack.git"
+  },
+  "keywords": ["1win", "vue", "socket.io", "koa2", "koa", "mysql"],
+  "author": "zinin.alexander21@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-tark/1wix-fullstack/issues"
+  },
+  "homepage": "https://github.com/alex-tark/1wix-fullstack#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "element-ui": "^2.4.1",
+    "esm": "^3.0.52",
+    "faker": "^4.1.0",
+    "knex": "^0.14.6",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "qs": "^6.5.2",
+    "tachyons": "^4.10.0",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.3",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.3",
+    "@vue/cli-service": "^3.0.0-rc.3",
+    "@vue/eslint-config-airbnb": "^3.0.0-rc.3",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5",
+    "sass-loader": "^7.0.3",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
