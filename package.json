@@ -1,6 +1,6 @@
 {
   "name": "1wix-fullstack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "Тестовое задание на позицию Senior JS(fullstack) компании 1wix",
   "main": ".eslintrc.js",
@@ -17,7 +17,14 @@
     "type": "git",
     "url": "git+https://github.com/alex-tark/1wix-fullstack.git"
   },
-  "keywords": ["1win", "vue", "socket.io", "koa2", "koa", "mysql"],
+  "keywords": [
+    "1win",
+    "vue",
+    "socket.io",
+    "koa2",
+    "koa",
+    "mysql"
+  ],
   "author": "zinin.alexander21@gmail.com",
   "license": "ISC",
   "bugs": {
@@ -34,6 +41,7 @@
     "knex": "^0.14.6",
     "koa": "^2.5.1",
     "koa-bodyparser": "^4.2.1",
+    "koa-joi-router": "^5.1.0",
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.0",
     "koa-static": "^5.0.0",
