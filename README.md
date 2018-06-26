@@ -1,5 +1,5 @@
 # 1wix-fullstack
-Тестовое задание на позицию Senior JS(fullstack) компании 1wix
+[Тестовое задание](https://docs.google.com/document/d/1EGYHVx3EcESygpOTY20JrY2paBOhstD_pKnd5IrvwmY/edit) на позицию Senior JS(fullstack) компании 1wix
 
 ### Как запускать
 Используется vue-cli, его необходимо инстальнуть глобально
